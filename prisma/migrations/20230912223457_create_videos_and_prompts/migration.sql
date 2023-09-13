@@ -8,7 +8,7 @@ CREATE TABLE "Video" (
 );
 
 -- CreateTable
-CREATE TABLE "Promp" (
+CREATE TABLE "Prompt" (
     "id" TEXT NOT NULL PRIMARY KEY,
     "title" TEXT NOT NULL,
     "template" TEXT NOT NULL
