@@ -3,7 +3,7 @@ import { fastifyCors } from "@fastify/cors";
 import { getAllPromptRoutes } from "./routes/get-all-prompts";
 import { uploadVideoRoute } from "./routes/upload-video";
 import { createTranscriptionRoute } from "./routes/create-transcription";
-import { generateAICompletionRoute } from "./routes/generate-ai-transcription";
+import { generateAICompletionRoute } from "./routes/generate-ai-completion";
 
 const app = fastify();
 
